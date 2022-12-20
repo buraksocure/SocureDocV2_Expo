@@ -1,0 +1,6 @@
+module rn_socure_sdk {
+  umbrella header "rn-socure-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

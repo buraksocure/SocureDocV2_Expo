@@ -1,0 +1,6 @@
+module Pods_SocureDocV2ExpoLib {
+  umbrella header "Pods-SocureDocV2ExpoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

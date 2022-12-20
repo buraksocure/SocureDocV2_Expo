@@ -1,0 +1,33 @@
+{
+  "name": "rn-socure-sdk",
+  "version": "2.2.2",
+  "summary": "Access Socure scanners",
+  "homepage": "https://github.com/socure-inc/android-sdk#readme",
+  "license": "MIT",
+  "authors": "Socure <deepanker@socure.com> (https://github.com/socure-inc/android-sdk)",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/socure-inc/socure-docv-wrapper-react-native.git",
+    "tag": "2.2.2"
+  },
+  "swift_versions": "5.0",
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "dependencies": {
+    "React": [
+
+    ],
+    "TrustKit": [
+
+    ],
+    "SocureSdk": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "ONLY_ACTIVE_ARCH": "YES",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,1 @@
+../../../../../node_modules/rn-socure-sdk/ios/RnSocureSdk-Bridging-Header.h
